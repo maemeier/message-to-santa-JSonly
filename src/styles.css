@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: pink;
+  color: #333;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  background: white;
+  flex: 0 0 80%;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: pink;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 3px solid pink;
+  outline: none;
+}
+input[type="text"]:focus {
+  box-shadow: 0 0 10px pink;
+}
+#messageOut {
+  margin: 0.5rem 0;
+  color: pink;
+}
